@@ -1,6 +1,11 @@
 --- Podejzenie danych o pliku backupu (bak)
 RESTORE HEADERONLY FROM DISK = N'C:\Katalog\MojBackupBazy.bak' 
 
+/*
+lista wersji
+(https://sqlserverbuilds.blogspot.com/2014/01/sql-server-internal-database-versions.html)
+*/
+
 --- Utworzeni backup z opcja nadpisania
 BACKUP DATABASE [MojaBaza_PROD] 
 TO DISK ='C:\Katalog\MojaBaza_PROD Backup_YYMMDD_hhmi.bak'
