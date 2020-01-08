@@ -1,3 +1,6 @@
+/*
+   Struktura analizujaca i przechowujaca dane historyczen walut
+*/
 --ALTE TABLE tWaluty ADD Bud BIT 
 
 SELECT * FROM tWaluty
