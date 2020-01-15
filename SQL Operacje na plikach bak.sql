@@ -3,7 +3,8 @@ RESTORE HEADERONLY FROM DISK = N'C:\Katalog\MojBackupBazy.bak'
 
 /*
 lista wersji
-(https://sqlserverbuilds.blogspot.com/2014/01/sql-server-internal-database-versions.html)
+https://sqlserverbuilds.blogspot.com/2014/01/sql-server-internal-database-versions.html
+https://blog.sqlauthority.com/2018/03/17/sql-server-identify-version-of-sql-server-from-backup-file/
 */
 
 --- Utworzeni backup z opcja nadpisania
