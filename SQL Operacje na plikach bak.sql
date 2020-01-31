@@ -2,10 +2,29 @@
 RESTORE HEADERONLY FROM DISK = N'C:\Katalog\MojBackupBazy.bak' 
 
 /*
-lista wersji
+identyfikacja wersji:
+
+SQL Server Version	Database Version
+SQL 2019	895
+SQL 2017	868
+SQL 2016	841
+SQL 2014	782
+SQL 2012	706
+SQL 2008 R2	661
+SQL 2008	655
+SQL 2005	611
+SQL 2000	539
+
+linki:
 https://sqlserverbuilds.blogspot.com/2014/01/sql-server-internal-database-versions.html
 https://blog.sqlauthority.com/2018/03/17/sql-server-identify-version-of-sql-server-from-backup-file/
+https://sqlrus.com/2014/10/compatibility-level-vs-database-version/
 */
+
+
+/* Please run below sql and check logical names */
+RESTORE FILELISTONLY 
+FROM DISK = N'C:\Katalog\MojBackupBazy.bak' 
 
 --- Utworzeni backup z opcja nadpisania
 BACKUP DATABASE [MojaBaza_PROD] 
