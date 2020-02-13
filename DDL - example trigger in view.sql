@@ -1,0 +1,3 @@
+/*
+  A trigger that allows you to update any complex view individually for all fields
+*/
