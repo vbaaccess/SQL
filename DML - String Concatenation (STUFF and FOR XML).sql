@@ -2,6 +2,8 @@
    How to simply and efficiently display several normalized data in unnormalized form (pivot)
 */
 
+-- TO DO - exempel of table
+
 SELECT tP.IdParent, tP.Parent
 	 , STUFF(
 				(
