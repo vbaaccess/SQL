@@ -19,6 +19,16 @@ CREATE Table tabChildren
 ,CONSTRAINT [FK_IdParent] FOREIGN KEY ([IdParent]) REFERENCES [tabParent].[Parent]
 )
 GO
+INSERT INTO tabParent (Parent) VALUES('Parent 1'),('Parent 2')
+
+INSERT INTO tabChildren (IdParent,Children)
+VALUES (1,'Child 1')
+     , (1,'Child 2')
+     , (1,'Child 3')
+     , (2,'4 Child')
+     , (2,'5 Child')
+
+GO
 
 SELECT tP.IdParent, tP.Parent
 	 , STUFF(
