@@ -1,0 +1,4 @@
+/*
+   Instead Of UPDATE Triggers
+   the example shows how to control the chronology of dates
+*/

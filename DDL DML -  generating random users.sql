@@ -1,0 +1,4 @@
+/*
+  generating random users
+  using this script you can anonymize personal information
+*/
