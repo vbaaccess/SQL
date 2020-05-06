@@ -29,6 +29,7 @@
             IF @aux='10'    SET @newS='{{10}}'
             IF @aux='13'    SET @newS='{{13}}'
             IF @aux='39'    SET @newS='{{39}}'
+            IF @aux='32'    SET @newS='{{32}}'
             IF Len(@newS)=0 SET @newS = CHAR(@aux)
 
             SET @s = @s + replace(@newS,' ','')
