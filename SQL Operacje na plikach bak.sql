@@ -40,7 +40,7 @@ WITH  FILE = 1
 ,  MOVE N'MojaBaza_PROD_log' TO N'X:\BazySQL\MojaBaza_PROD_log.LDF'
 ,  NOUNLOAD,  REPLACE,  STATS = 5
 
---- Odtworzenie backupu z opcja nadpisania,zamkniecia polaczen i skazanie gdzie sa pliki
+--- Odtworzenie backupu z opcja nadpisania,zamkniecia polaczen i wkazaniem gdzie sa pliki
 USE [master]
 ALTER DATABASE [MojaBaza_PROD] SET SINGLE_USER WITH ROLLBACK IMMEDIATE
 RESTORE DATABASE [MojaBaza_PROD] 
