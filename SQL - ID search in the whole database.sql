@@ -4,8 +4,9 @@ DECLARE @SoughtId VARCHAR(254)
 SET @SoughtId = ''		-- variable initialization
 SET @SoughtIdField = ''	-- variable initialization
 
-SET @SoughtIdField='IdPracownika' --- search field, e.g.: IdType,Id
-SET @SoughtId = 'IS NOT NULL'     --- search phrase in the search field: IN (123) , IS NULL, >100
+								-- An example of initializing variables:
+SET @SoughtIdField='IdOrder'	-- search field, e.g.: IdType,Id
+SET @SoughtId = 'IS NOT NULL'   -- search phrase in the search field: IN (123) , IS NULL, >100
 
 DECLARE @cur CURSOR
 DECLARE @cur_SQLToTest NVARCHAR(MAX)
